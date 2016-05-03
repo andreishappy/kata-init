@@ -1,0 +1,10 @@
+PODS:
+  - TABSwiftLayout (1.0)
+
+DEPENDENCIES:
+  - TABSwiftLayout (= 1.0)
+
+SPEC CHECKSUMS:
+  TABSwiftLayout: 37d013b51a2e5cc8408fe754eed3877cc3a5b4ef
+
+COCOAPODS: 0.39.0

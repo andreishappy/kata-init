@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75016DE91CC9130000C37DA1 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75016DE81CC9130000C37DA1 /* DataSource.swift */; };
+		75016DEB1CC914DF00C37DA1 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75016DEA1CC914DF00C37DA1 /* Cell.swift */; };
+		757043491CCA532E00D2E811 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757043481CCA532E00D2E811 /* Mask.swift */; };
 		75AA3CCB1CC4F61A005B6A82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AA3CCA1CC4F61A005B6A82 /* AppDelegate.swift */; };
 		75AA3CCD1CC4F61A005B6A82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AA3CCC1CC4F61A005B6A82 /* ViewController.swift */; };
 		75AA3CD01CC4F61A005B6A82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AA3CCE1CC4F61A005B6A82 /* Main.storyboard */; };
 		75AA3CD21CC4F61A005B6A82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AA3CD11CC4F61A005B6A82 /* Assets.xcassets */; };
 		75AA3CD51CC4F61A005B6A82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AA3CD31CC4F61A005B6A82 /* LaunchScreen.storyboard */; };
 		75AA3CE01CC4F61A005B6A82 /* kataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AA3CDF1CC4F61A005B6A82 /* kataTests.swift */; };
+		92E8B6B05834952AF3384015 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBE9F648DC7E9214D1CE5DE /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,16 +27,13 @@
 			remoteGlobalIDString = 75AA3CC61CC4F61A005B6A82;
 			remoteInfo = kata;
 		};
-		75AA3CE71CC4F61A005B6A82 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75AA3CBF1CC4F61A005B6A82 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 75AA3CC61CC4F61A005B6A82;
-			remoteInfo = kata;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AE41846D6602D9A9E03688B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		75016DE81CC9130000C37DA1 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		75016DEA1CC914DF00C37DA1 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		757043481CCA532E00D2E811 /* Mask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
 		75AA3CC71CC4F61A005B6A82 /* kata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AA3CCA1CC4F61A005B6A82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75AA3CCC1CC4F61A005B6A82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,7 +44,8 @@
 		75AA3CDB1CC4F61A005B6A82 /* kataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AA3CDF1CC4F61A005B6A82 /* kataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kataTests.swift; sourceTree = "<group>"; };
 		75AA3CE11CC4F61A005B6A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75AA3CE61CC4F61A005B6A82 /* kataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBE9F648DC7E9214D1CE5DE /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDEED0DAF6086C3E67306E90 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E8B6B05834952AF3384015 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,22 +64,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75AA3CE31CC4F61A005B6A82 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		630207C1069F7E4E5840116A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEBE9F648DC7E9214D1CE5DE /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		75AA3CBE1CC4F61A005B6A82 = {
 			isa = PBXGroup;
 			children = (
 				75AA3CC91CC4F61A005B6A82 /* kata */,
 				75AA3CDE1CC4F61A005B6A82 /* kataTests */,
 				75AA3CC81CC4F61A005B6A82 /* Products */,
+				AEF9D2E3601E6474A257F61F /* Pods */,
+				630207C1069F7E4E5840116A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,7 +91,6 @@
 			children = (
 				75AA3CC71CC4F61A005B6A82 /* kata.app */,
 				75AA3CDB1CC4F61A005B6A82 /* kataTests.xctest */,
-				75AA3CE61CC4F61A005B6A82 /* kataUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,9 +98,12 @@
 		75AA3CC91CC4F61A005B6A82 /* kata */ = {
 			isa = PBXGroup;
 			children = (
+				75AA3CCE1CC4F61A005B6A82 /* Main.storyboard */,
 				75AA3CCA1CC4F61A005B6A82 /* AppDelegate.swift */,
 				75AA3CCC1CC4F61A005B6A82 /* ViewController.swift */,
-				75AA3CCE1CC4F61A005B6A82 /* Main.storyboard */,
+				75016DE81CC9130000C37DA1 /* DataSource.swift */,
+				75016DEA1CC914DF00C37DA1 /* Cell.swift */,
+				757043481CCA532E00D2E811 /* Mask.swift */,
 				75AA3CD11CC4F61A005B6A82 /* Assets.xcassets */,
 				75AA3CD31CC4F61A005B6A82 /* LaunchScreen.storyboard */,
 				75AA3CD61CC4F61A005B6A82 /* Info.plist */,
@@ -112,6 +120,15 @@
 			path = kataTests;
 			sourceTree = "<group>";
 		};
+		AEF9D2E3601E6474A257F61F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDEED0DAF6086C3E67306E90 /* Pods.debug.xcconfig */,
+				3AE41846D6602D9A9E03688B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75AA3CEF1CC4F61A005B6A82 /* Build configuration list for PBXNativeTarget "kata" */;
 			buildPhases = (
+				5F642CA4C1E11FD0E2F0BF43 /* Check Pods Manifest.lock */,
 				75AA3CC31CC4F61A005B6A82 /* Sources */,
 				75AA3CC41CC4F61A005B6A82 /* Frameworks */,
 				75AA3CC51CC4F61A005B6A82 /* Resources */,
+				982AAEF5B42044CFCAD2E584 /* Embed Pods Frameworks */,
+				9802673505B57F62122ADBD9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -150,24 +170,6 @@
 			productReference = 75AA3CDB1CC4F61A005B6A82 /* kataTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		75AA3CE51CC4F61A005B6A82 /* kataUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75AA3CF51CC4F61A005B6A82 /* Build configuration list for PBXNativeTarget "kataUITests" */;
-			buildPhases = (
-				75AA3CE21CC4F61A005B6A82 /* Sources */,
-				75AA3CE31CC4F61A005B6A82 /* Frameworks */,
-				75AA3CE41CC4F61A005B6A82 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				75AA3CE81CC4F61A005B6A82 /* PBXTargetDependency */,
-			);
-			name = kataUITests;
-			productName = kataUITests;
-			productReference = 75AA3CE61CC4F61A005B6A82 /* kataUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -182,10 +184,6 @@
 						CreatedOnToolsVersion = 7.1.1;
 					};
 					75AA3CDA1CC4F61A005B6A82 = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 75AA3CC61CC4F61A005B6A82;
-					};
-					75AA3CE51CC4F61A005B6A82 = {
 						CreatedOnToolsVersion = 7.1.1;
 						TestTargetID = 75AA3CC61CC4F61A005B6A82;
 					};
@@ -206,7 +204,6 @@
 			targets = (
 				75AA3CC61CC4F61A005B6A82 /* kata */,
 				75AA3CDA1CC4F61A005B6A82 /* kataTests */,
-				75AA3CE51CC4F61A005B6A82 /* kataUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,22 +226,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75AA3CE41CC4F61A005B6A82 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F642CA4C1E11FD0E2F0BF43 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		9802673505B57F62122ADBD9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		982AAEF5B42044CFCAD2E584 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75AA3CC31CC4F61A005B6A82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75016DE91CC9130000C37DA1 /* DataSource.swift in Sources */,
+				75016DEB1CC914DF00C37DA1 /* Cell.swift in Sources */,
 				75AA3CCD1CC4F61A005B6A82 /* ViewController.swift in Sources */,
 				75AA3CCB1CC4F61A005B6A82 /* AppDelegate.swift in Sources */,
+				757043491CCA532E00D2E811 /* Mask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,13 +297,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75AA3CE21CC4F61A005B6A82 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -270,11 +304,6 @@
 			isa = PBXTargetDependency;
 			target = 75AA3CC61CC4F61A005B6A82 /* kata */;
 			targetProxy = 75AA3CDC1CC4F61A005B6A82 /* PBXContainerItemProxy */;
-		};
-		75AA3CE81CC4F61A005B6A82 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 75AA3CC61CC4F61A005B6A82 /* kata */;
-			targetProxy = 75AA3CE71CC4F61A005B6A82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -334,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -373,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -383,9 +412,11 @@
 		};
 		75AA3CF01CC4F61A005B6A82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDEED0DAF6086C3E67306E90 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = kata/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.kata;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -394,9 +425,11 @@
 		};
 		75AA3CF11CC4F61A005B6A82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AE41846D6602D9A9E03688B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = kata/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.kata;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,30 +460,6 @@
 			};
 			name = Release;
 		};
-		75AA3CF61CC4F61A005B6A82 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = kataUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.kataUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = kata;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		75AA3CF71CC4F61A005B6A82 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = kataUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.andrei.kataUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = kata;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -470,6 +479,7 @@
 				75AA3CF11CC4F61A005B6A82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75AA3CF21CC4F61A005B6A82 /* Build configuration list for PBXNativeTarget "kataTests" */ = {
 			isa = XCConfigurationList;
@@ -478,14 +488,7 @@
 				75AA3CF41CC4F61A005B6A82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		75AA3CF51CC4F61A005B6A82 /* Build configuration list for PBXNativeTarget "kataUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				75AA3CF61CC4F61A005B6A82 /* Debug */,
-				75AA3CF71CC4F61A005B6A82 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
